@@ -1,0 +1,156 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/*--------------
+ Navigation system
+ -------------- */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 45px;
+}
+
+.manubar {
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.manubar a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+}
+
+/* ---------------
+Brand Details 
+--------------*/
+.brand-details {
+    width: 862px;
+    height: 225px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.brand-title {
+    font-size: 64px;
+    text-align: center;
+}
+
+.explore-btn {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+/*----------- 
+Banner img 
+----------*/
+.single-img {
+    width: 1440px;
+    height: 700px;
+    /* margin: 0 auto; */
+    margin-bottom: 130px;
+
+}
+
+/* ----------------
+-----section-b--------
+------------------ */
+.grid-flex {
+    display: flex;
+    gap: 73px;
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    padding-left: 61px;
+    margin-bottom: 130px;
+}
+
+.grid-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.future-info {
+    width: 537px;
+    height: 304px;
+    margin: auto 0;
+}
+
+/*-------------- 
+---section-c----
+--------------*/
+.section-c {
+    width: 1440px;
+    height: 1059px;
+}
+
+.love-enjoy {
+    display: flex;
+    gap: 54px;
+}
+
+.first-para {}
+
+.first-para-title {
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 21px;
+}
+
+
+
+.pragraph-title {
+    font-size: 20px;
+}
+
+.paragraph-info {
+    width: 514px;
+    height: 78px;
+    font-weight: 400px;
+    color: #727272;
+}
+
+.paragraphs {
+    display: grid;
+    row-gap: 10px;
+    width: 586px;
+    height: 171px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.year-btn {
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    color: whitesmoke;
+    border: none;
+    position: relative;
+    left: 640px;
+    bottom: 128px;
+}
+#tenyear{
+    font-size: 65px;
+    color: whitesmoke;
+}
